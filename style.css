@@ -26,7 +26,7 @@ li button{
     text-align: center;
 }
 
-li a:hover{
+li button:hover{
     background-color: #034B5C;
 }
 

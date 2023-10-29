@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #011F26;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
 }
 
@@ -12,42 +17,32 @@ li{
     float: left;
 }
 
-li button{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+li a{
     font-weight: bold;
     background-color: transparent;
     cursor: pointer;
-    box-shadow: none;
-    border: none;
     display: block;
     padding: 16px 14px;
-    font-size: 16px;
+    font-size: 13px;
     color: snow;
     text-align: center;
+    text-decoration: none;
 }
 
-li button:hover{
+li a:hover{
     background-color: #034B5C;
 }
 
-.active{
+li a:active{
     background-color: #027368;
 }
 
-.conteudo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.titulo{
-    margin: 2px;
-    padding: 40px;
-    text-align: center;
-}
-
-.texto{
-    padding: 5px;
-    margin: auto;
-    border: 1px solid;
-    border-color: #011F26;
-    width: 50%;
+footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color: #011F26;
+	color: snow;
+	padding: 10px;
+	text-align: center;
+    justify-content: center;
 }

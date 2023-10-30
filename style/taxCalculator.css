@@ -1,0 +1,91 @@
+.container{
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e3eb;
+    align-items: center;
+    justify-content: center;
+}
+
+.taxType{
+    margin-bottom: 5px;
+    width: 80%;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+fieldset{
+    text-align: center;
+    border: none;
+}
+
+.taxType legend{
+    font-weight: bold;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.taxContent{
+    width: 80%;
+    display: inline-block;
+}
+
+.taxValues{
+    width: 45%;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    float: left;
+}
+
+.taxValues label{
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+
+.taxValues input{
+    width: 100%;
+    border: none;
+    background-color: #dff0ff;
+    font-size: 20px;
+}
+
+.taxResult{
+    width: 45%;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    float: right;
+}
+
+.montanteValue{
+    font-weight: bold;
+    font-size: 40px;
+    align-self: center;
+    width: 90%;
+    border: none;
+    background-color: snow;
+    pointer-events: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.calculateTax{
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+

@@ -17,6 +17,7 @@
 }
 
 .display{
+    background-color: snow;
     height: 80px;
     width: 100%;
     outline: none;

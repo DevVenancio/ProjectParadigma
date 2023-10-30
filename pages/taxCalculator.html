@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <script type="text/javascript" src="config.js"></script>
+    <link rel="stylesheet" href="/style/taxCalculator.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="/img/icon/calculator.svg" type="image/x-icon">
@@ -22,6 +22,31 @@
         }
         </script>
     </header>
+
+    <div class="container">
+        <div class="taxType">
+            <legend>Selecione o tipo de juros para ser calculado: </legend>
+            <fieldset>
+                <label class="optLabel" for="simpleTax"><input class="optInput" type="radio" name="tipoJuros" id="simpleTax" value="1" checked>Juros Simples</label>
+                <label class="optLabel" for="compostTax"><input class="optInput" type="radio" name="tipoJuros" id="compostTax" value="2">Juros Composto</label>
+            </fieldset>
+        </div>
+
+        <div class="taxContent">
+            <div class="taxValues">
+                <label>Capital: <input type="number" name="" id="capitalValue"></label>
+                <label>Taxa de Juros(%): <input type="number" name="" id="feeValue"></label>
+                <label>Período(meses): <input type="number" name="" id="periodValue"></label>
+            </div>
+    
+            <div class="taxResult"> 
+                <h4>Montante Total</h4>
+                <input type="text" class="montanteValue" id="montanteValue">
+                <button id="calculateTax" class="calculateTax">Calcular</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="/script/taxCalculator.js"></script>
+    </div>
 
     <footer class="rodape">
         <div>

@@ -5,20 +5,12 @@ document.getElementById("calculateTax").addEventListener("click", function(){
 
     const typeTax = document.querySelector('input[name="tipoJuros"]:checked').value;
 
-    let output = "";
-
-    if(typeTax === 1){
-        const simpleTotal = capitalValue * (1 * feeValue * periodValue);
+    if(typeTax === "1"){
+        const simpleTotal = capitalValue * (1 + feeValue * periodValue);
         document.getElementById("montanteValue").value = ("R$ " + simpleTotal.toFixed(2)).toString();
-    }else if(typeTax === 2){
-        const compostTotal = capitalValue * (1 * feeValue) ** periodValue;
+    }else if(typeTax === "2"){
+        const compostTotal = capitalValue * (1 + feeValue) ** periodValue;
         document.getElementById("montanteValue").value = ("R$ " + compostTotal.toFixed(2)).toString();
     }
-
-    console.log(capitalValue);
-    console.log(feeValue);
-    console.log(periodValue);
-    console.log(typeTax);
-    console.log(output);
 });
 

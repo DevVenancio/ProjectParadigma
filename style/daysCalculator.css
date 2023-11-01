@@ -1,0 +1,55 @@
+.container{
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e3eb;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerConverter{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+legend{
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+}
+
+.daysConverter{
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+}
+
+.daysConverter input{
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: #dff0ff;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.buttonConvert button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 3px;
+    border: none;
+    background-color: #B5BFE8;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}

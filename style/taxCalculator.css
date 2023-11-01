@@ -10,7 +10,7 @@
 
 .taxType{
     margin-bottom: 5px;
-    width: 80%;
+    width: 55%;
     border-radius: 12px;
     padding: 15px;
     background-color: snow;
@@ -29,12 +29,14 @@ fieldset{
 }
 
 .taxContent{
-    width: 80%;
-    display: inline-block;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
 }
 
 .taxValues{
-    width: 45%;
     border-radius: 12px;
     padding: 15px;
     background-color: snow;
@@ -50,10 +52,14 @@ fieldset{
 }
 
 .taxValues input{
+    padding: 10px 5px 10px 5px;
+    border-radius: 12px;
     width: 100%;
     border: none;
     background-color: #dff0ff;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .taxResult{
@@ -81,7 +87,7 @@ fieldset{
 .calculateTax{
     padding: 10px;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 12px;
     font-size: 20px;
     border: none;
     background-color: #eee;

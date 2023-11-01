@@ -3,6 +3,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.containerContent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e3eb;
+}
+
+.contentHistory{
+    position: relative;
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background-color: snow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contentHistory .contentTitle{
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
